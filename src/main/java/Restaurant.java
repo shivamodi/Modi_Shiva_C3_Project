@@ -49,7 +49,7 @@ public class Restaurant {
 
         menu.remove(itemToBeRemoved);
     }
-
+    //Part 3 : Solution
     public int getSelectedItemPrice() {
         int amount = 0;
         for(Item item: menu) {
